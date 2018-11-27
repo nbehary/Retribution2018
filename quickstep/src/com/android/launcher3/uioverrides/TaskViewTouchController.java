@@ -13,28 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.uioverrides;
+package com.android.retribution2.uioverrides;
 
-import static com.android.launcher3.Utilities.SINGLE_FRAME_MS;
-import static com.android.launcher3.anim.Interpolators.scrollInterpolatorForVelocity;
+import static com.android.retribution2.Utilities.SINGLE_FRAME_MS;
+import static com.android.retribution2.anim.Interpolators.scrollInterpolatorForVelocity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 import android.view.MotionEvent;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.BaseDraggingActivity;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.AnimatorPlaybackController;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.touch.SwipeDetector;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action.Touch;
-import com.android.launcher3.util.FlingBlockCheck;
-import com.android.launcher3.util.PendingAnimation;
-import com.android.launcher3.util.TouchController;
-import com.android.launcher3.views.BaseDragLayer;
+import com.android.retribution2.AbstractFloatingView;
+import com.android.retribution2.BaseDraggingActivity;
+import com.android.retribution2.LauncherAnimUtils;
+import com.android.retribution2.Utilities;
+import com.android.retribution2.anim.AnimatorPlaybackController;
+import com.android.retribution2.anim.Interpolators;
+import com.android.retribution2.touch.SwipeDetector;
+import com.android.retribution2.userevent.nano.LauncherLogProto.Action.Touch;
+import com.android.retribution2.util.FlingBlockCheck;
+import com.android.retribution2.util.PendingAnimation;
+import com.android.retribution2.util.TouchController;
+import com.android.retribution2.views.BaseDragLayer;
 import com.android.quickstep.OverviewInteractionState;
 import com.android.quickstep.views.RecentsView;
 import com.android.quickstep.views.TaskView;

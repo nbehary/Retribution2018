@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.uioverrides;
+package com.android.retribution2.uioverrides;
 
 import static android.app.WallpaperManager.FLAG_SYSTEM;
 

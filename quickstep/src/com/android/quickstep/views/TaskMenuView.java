@@ -32,15 +32,15 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.BaseDraggingActivity;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.AnimationSuccessListener;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.anim.RoundedRectRevealOutlineProvider;
-import com.android.launcher3.views.BaseDragLayer;
+import com.android.retribution2.AbstractFloatingView;
+import com.android.retribution2.BaseDraggingActivity;
+import com.android.retribution2.LauncherAnimUtils;
+import com.android.retribution2.R;
+import com.android.retribution2.Utilities;
+import com.android.retribution2.anim.AnimationSuccessListener;
+import com.android.retribution2.anim.Interpolators;
+import com.android.retribution2.anim.RoundedRectRevealOutlineProvider;
+import com.android.retribution2.views.BaseDragLayer;
 import com.android.quickstep.TaskSystemShortcut;
 import com.android.quickstep.TaskUtils;
 

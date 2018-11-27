@@ -15,10 +15,10 @@
  */
 package com.android.quickstep.views;
 
-import static com.android.launcher3.LauncherAppTransitionManagerImpl.ALL_APPS_PROGRESS_OFF_SCREEN;
-import static com.android.launcher3.LauncherState.ALL_APPS_HEADER_EXTRA;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.allapps.AllAppsTransitionController.ALL_APPS_PROGRESS;
+import static com.android.retribution2.LauncherAppTransitionManagerImpl.ALL_APPS_PROGRESS_OFF_SCREEN;
+import static com.android.retribution2.LauncherState.ALL_APPS_HEADER_EXTRA;
+import static com.android.retribution2.LauncherState.NORMAL;
+import static com.android.retribution2.allapps.AllAppsTransitionController.ALL_APPS_PROGRESS;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -32,12 +32,12 @@ import android.util.FloatProperty;
 import android.view.View;
 import android.view.ViewDebug;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.views.ScrimView;
+import com.android.retribution2.DeviceProfile;
+import com.android.retribution2.Launcher;
+import com.android.retribution2.LauncherState;
+import com.android.retribution2.R;
+import com.android.retribution2.anim.Interpolators;
+import com.android.retribution2.views.ScrimView;
 import com.android.quickstep.OverviewInteractionState;
 import com.android.quickstep.util.ClipAnimationHelper;
 import com.android.quickstep.util.LayoutUtils;

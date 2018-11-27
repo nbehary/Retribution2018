@@ -16,18 +16,18 @@
 
 package com.android.quickstep;
 
-import static com.android.launcher3.anim.Interpolators.FAST_OUT_SLOW_IN;
+import static com.android.retribution2.anim.Interpolators.FAST_OUT_SLOW_IN;
 
 import android.util.Log;
 import android.view.HapticFeedbackConstants;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.Alarm;
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.OnAlarmListener;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action.Touch;
+import com.android.retribution2.Alarm;
+import com.android.retribution2.BaseActivity;
+import com.android.retribution2.OnAlarmListener;
+import com.android.retribution2.Utilities;
+import com.android.retribution2.userevent.nano.LauncherLogProto;
+import com.android.retribution2.userevent.nano.LauncherLogProto.Action.Touch;
 import com.android.quickstep.views.RecentsView;
 import com.android.quickstep.views.TaskView;
 

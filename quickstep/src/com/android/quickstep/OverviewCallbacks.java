@@ -17,9 +17,9 @@ package com.android.quickstep;
 
 import android.content.Context;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.Preconditions;
+import com.android.retribution2.R;
+import com.android.retribution2.Utilities;
+import com.android.retribution2.util.Preconditions;
 
 /**
  * Callbacks related to overview/quicksteps.

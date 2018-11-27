@@ -16,9 +16,9 @@
 package com.android.quickstep.views;
 
 import static android.support.v4.graphics.ColorUtils.setAlphaComponent;
-import static com.android.launcher3.LauncherState.OVERVIEW;
-import static com.android.launcher3.anim.Interpolators.ACCEL;
-import static com.android.launcher3.anim.Interpolators.LINEAR;
+import static com.android.retribution2.LauncherState.OVERVIEW;
+import static com.android.retribution2.anim.Interpolators.ACCEL;
+import static com.android.retribution2.anim.Interpolators.LINEAR;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -29,12 +29,12 @@ import android.graphics.Path.Direction;
 import android.graphics.Path.Op;
 import android.util.AttributeSet;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.views.ScrimView;
+import com.android.retribution2.DeviceProfile;
+import com.android.retribution2.R;
+import com.android.retribution2.Utilities;
+import com.android.retribution2.anim.Interpolators;
+import com.android.retribution2.util.Themes;
+import com.android.retribution2.views.ScrimView;
 
 /**
  * Scrim used for all-apps and shelf in Overview

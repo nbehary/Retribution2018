@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.tapl;
+package com.android.retribution2.tapl;
 
 import android.graphics.Point;
 import android.support.annotation.NonNull;

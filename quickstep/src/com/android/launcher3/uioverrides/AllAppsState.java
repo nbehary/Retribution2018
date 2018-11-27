@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.uioverrides;
+package com.android.retribution2.uioverrides;
 
-import static com.android.launcher3.LauncherAnimUtils.ALL_APPS_TRANSITION_MS;
-import static com.android.launcher3.anim.Interpolators.DEACCEL_2;
+import static com.android.retribution2.LauncherAnimUtils.ALL_APPS_TRANSITION_MS;
+import static com.android.retribution2.anim.Interpolators.DEACCEL_2;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.retribution2.AbstractFloatingView;
+import com.android.retribution2.Launcher;
+import com.android.retribution2.LauncherState;
+import com.android.retribution2.allapps.AllAppsContainerView;
+import com.android.retribution2.userevent.nano.LauncherLogProto.ContainerType;
 
 /**
  * Definition for AllApps state

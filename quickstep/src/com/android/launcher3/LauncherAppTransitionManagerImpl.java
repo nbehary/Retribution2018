@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.retribution2;
 
-import static com.android.launcher3.BaseActivity.INVISIBLE_ALL;
-import static com.android.launcher3.BaseActivity.INVISIBLE_BY_APP_TRANSITIONS;
-import static com.android.launcher3.BaseActivity.INVISIBLE_BY_PENDING_FLAGS;
-import static com.android.launcher3.BaseActivity.PENDING_INVISIBLE_BY_WALLPAPER_ANIMATION;
-import static com.android.launcher3.LauncherAnimUtils.SCALE_PROPERTY;
-import static com.android.launcher3.LauncherState.ALL_APPS;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.LauncherState.OVERVIEW;
-import static com.android.launcher3.Utilities.postAsyncCallback;
-import static com.android.launcher3.allapps.AllAppsTransitionController.ALL_APPS_PROGRESS;
-import static com.android.launcher3.anim.Interpolators.AGGRESSIVE_EASE;
-import static com.android.launcher3.anim.Interpolators.DEACCEL_1_7;
-import static com.android.launcher3.anim.Interpolators.LINEAR;
-import static com.android.launcher3.dragndrop.DragLayer.ALPHA_INDEX_TRANSITIONS;
+import static com.android.retribution2.BaseActivity.INVISIBLE_ALL;
+import static com.android.retribution2.BaseActivity.INVISIBLE_BY_APP_TRANSITIONS;
+import static com.android.retribution2.BaseActivity.INVISIBLE_BY_PENDING_FLAGS;
+import static com.android.retribution2.BaseActivity.PENDING_INVISIBLE_BY_WALLPAPER_ANIMATION;
+import static com.android.retribution2.LauncherAnimUtils.SCALE_PROPERTY;
+import static com.android.retribution2.LauncherState.ALL_APPS;
+import static com.android.retribution2.LauncherState.NORMAL;
+import static com.android.retribution2.LauncherState.OVERVIEW;
+import static com.android.retribution2.Utilities.postAsyncCallback;
+import static com.android.retribution2.allapps.AllAppsTransitionController.ALL_APPS_PROGRESS;
+import static com.android.retribution2.anim.Interpolators.AGGRESSIVE_EASE;
+import static com.android.retribution2.anim.Interpolators.DEACCEL_1_7;
+import static com.android.retribution2.anim.Interpolators.LINEAR;
+import static com.android.retribution2.dragndrop.DragLayer.ALPHA_INDEX_TRANSITIONS;
 import static com.android.quickstep.TaskUtils.findTaskViewToLaunch;
 import static com.android.quickstep.TaskUtils.getRecentsWindowAnimator;
 import static com.android.quickstep.TaskUtils.taskIsATargetWithMode;
@@ -57,16 +57,16 @@ import android.util.Pair;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.DeviceProfile.OnDeviceProfileChangeListener;
-import com.android.launcher3.InsettableFrameLayout.LayoutParams;
-import com.android.launcher3.allapps.AllAppsTransitionController;
-import com.android.launcher3.anim.AnimatorPlaybackController;
-import com.android.launcher3.anim.Interpolators;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.shortcuts.DeepShortcutView;
-import com.android.launcher3.util.MultiValueAlpha;
-import com.android.launcher3.util.MultiValueAlpha.AlphaProperty;
+import com.android.retribution2.DeviceProfile.OnDeviceProfileChangeListener;
+import com.android.retribution2.InsettableFrameLayout.LayoutParams;
+import com.android.retribution2.allapps.AllAppsTransitionController;
+import com.android.retribution2.anim.AnimatorPlaybackController;
+import com.android.retribution2.anim.Interpolators;
+import com.android.retribution2.dragndrop.DragLayer;
+import com.android.retribution2.graphics.DrawableFactory;
+import com.android.retribution2.shortcuts.DeepShortcutView;
+import com.android.retribution2.util.MultiValueAlpha;
+import com.android.retribution2.util.MultiValueAlpha.AlphaProperty;
 import com.android.quickstep.util.ClipAnimationHelper;
 import com.android.quickstep.util.MultiValueUpdateListener;
 import com.android.quickstep.util.RemoteAnimationProvider;
